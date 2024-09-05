@@ -7,6 +7,6 @@ nav: false
 nav_order: 6
 ---
 
-Have Tried (in chronological order): Taekwondo, Soccer, Basketball, Volleyball, Handball, <a href='https://www.youtube.com/watch?v=dR6_MdIBmDI/'>Tchoukball</a>, Frisbee, Bowling, Pool, Poker (I am dramatically passionate about this game of mind and math that I might open up a separate section talking about it).
+Have Tried (in chronological order): Taekwondo, Soccer, <span style="color: red;">Basketball</span> (all-time favorite),Volleyball, Handball, <a href='https://www.youtube.com/watch?v=dR6_MdIBmDI/'>Tchoukball</a>, Frisbee, Bowling, Pool, <span style="color: red;">Poker</span> (I am dramatically passionate about this game of mind and math that I might open up a separate section talking about it).
 
 Currently Learning: Pickleball and Rock Climbing!
