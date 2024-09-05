@@ -1,14 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
-
-repo_description_lines_max: 2
+  - richardzhuang0412
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - richardzhuang0412/PokerBench
+  - thwu1/llm2vec
+  - haojunzhuang/ms_simulation
+
