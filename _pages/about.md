@@ -1,6 +1,6 @@
 ---
 layout: about
-title: ME!
+title: ME
 permalink: /
 subtitle: >
   UC Berkeley CS + Applied Math, LLM Researcher, World-Class Poker/Basketball Player 

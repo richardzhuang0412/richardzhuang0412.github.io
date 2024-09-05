@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /coursework/
-title: My Courses!
+title: My Courses
 description: 
 nav: true
 nav_order: 6
