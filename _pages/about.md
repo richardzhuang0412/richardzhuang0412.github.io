@@ -19,6 +19,16 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R57GE0P1TR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-R57GE0P1TR');
+</script>
+
 Welcome to Richard's personal space! I am a senior studying **Applied Math** and **Computer Science** at <a href='https://www.berkeley.edu/'>UC Berkeley</a>. I am an undergraduate researcher at <a href='https://people.eecs.berkeley.edu/~jiantao/'>JiaoLab</a> (advised by Ph.D. students <a href='https://thwu1.github.io/tianhaowu/'>Tianhao Wu</a> and <a href='https://hanlinzhu.com/'>Hanlin Zhu</a>) and <a href='https://people.eecs.berkeley.edu/~gopala/'>Berkeley Speech Group</a> (advised by Ph.D. student <a href='https://akshat57.github.io/'>Akshat Gupta</a>).
 
 My technical interest first developed in **Sports Analytics** as I devoted myself into Mathematics and basketball in high school. Gradually, I became fascinated by the broader power of **Data Science** and **Machine Learning** in benefiting many more facets of our world. **Currently**, I am interested in exploring the potential of **Large Language Models (LLMs)**, specifically their **ability as agents**. Here is a collection of my <a href='/projects/'>research projects</a> and <a href='/coursework/'>past courseworks</a>.

@@ -8,6 +8,16 @@ nav_order: 3
 display_categories: [Ongoing, Finished]
 horizontal: false
 ---
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R57GE0P1TR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-R57GE0P1TR');
+</script>
+
 (Under Construction)
 <!-- pages/projects.md -->
 <div class="projects">

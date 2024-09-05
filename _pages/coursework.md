@@ -6,6 +6,15 @@ description:
 nav: true
 nav_order: 6
 ---
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R57GE0P1TR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-R57GE0P1TR');
+</script>
 
 **Currently Planned Coursework (Fall 2024):**
 
