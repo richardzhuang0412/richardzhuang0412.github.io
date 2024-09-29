@@ -5,7 +5,7 @@ permalink: /projects/
 description: 
 nav: true
 nav_order: 3
-display_categories: [Ongoing, Finished]
+display_categories: [Finished, Ongoing]
 horizontal: false
 ---
 <!-- Google tag (gtag.js) -->

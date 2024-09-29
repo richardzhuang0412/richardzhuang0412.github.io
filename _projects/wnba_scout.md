@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: Player Scouter Algorithm
 description: Identifying "hidden gems" in overseas league for WNBA teams
@@ -9,4 +9,4 @@ category: Finished
 
 (Project Detail Coming Soon!)
 
-Cover picture credit: [Towards Data Science](https://towardsdatascience.com/nba-data-analytics-changing-the-game-a9ad59d1f116)
+Cover picture credit: [Towards Data Science](https://towardsdatascience.com/nba-data-analytics-changing-the-game-a9ad59d1f116) -->

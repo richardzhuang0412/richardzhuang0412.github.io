@@ -1,91 +1,19 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={false}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@misc{embedllm,
+    abbr={EmbedLLM},
+    title={(Under Review in ICLR 2025) EmbedLLM: Learning Compact Representations of Large Language Models}, 
+    author={Richard Zhuang and Tianhao Wu and Zhaojin Wen and Andrew Li and Kannan Ramchandran and Jiantao Jiao},
+    year={2024},
+    month={Oct},
+    selected={true},
+    abstract={With hundreds of thousands of language models available on Huggingface today, efficiently evaluating and utilizing these models across various downstream tasks has become increasingly critical. Many existing methods repeatedly learn task-specific representations of Large Language Models (LLMs), which leads to inefficiencies in both time and computational resources. To address this, we propose EmbedLLM, a framework designed to learn compact vector representations of LLMs that facilitate downstream applications involving many models, such as model routing. We introduce an encoder-decoder approach for learning such embedding, along with a systematic framework to evaluate their effectiveness. Empirical results show that EmbedLLM outperforms prior methods in model routing. Additionally, we demonstrate that our method can forecast a model's performance on multiple benchmarks, without incurring additional inference cost. Extensive probing experiments validate that the learned embeddings capture key model characteristics, e.g. whether the model is specialized for coding tasks, even without being explicitly trained on them. We open source our dataset, code and embedder to facilitate further research and application.}
 }
 
 @misc{pokerllm,
-    abbr={Poker LLM},
-    title={(Under Review) PokerBench: Training Large Language Models to become Professional Poker Players}, 
+    abbr={PokerLLM},
+    title={(Under Review in AAAI 2025) PokerBench: Training Large Language Models to become Professional Poker Players}, 
     author={Richard Zhuang and Akshat Gupta and Richard Yang and Aniket Rahane and Zhengyu Li and Gopala Anumanchipalli},
     year={2024},
     month={Aug},
@@ -93,17 +21,15 @@
     abstract={As Large Language Models (LLMs) excel in traditional NLP tasks, their application to complex, strategic games like poker poses a new challenge. Poker, an incomplete information game, demands a multitude of skills such as mathematics, reasoning, planning, and understanding of game theory. We evaluate prominent models such as GPT, Llama and Gemma series models, finding that all state-of-the-art LLMs underperform in playing optimal poker. To enhance LLM’s poker-playing capabilities, we formulated strategy learning in a teacher-student framework and performed knowledge distillation from Game Theory Optimal (GTO) strategy solvers. Through aggregating a novel training dataset comprising decisions that represent an unexploitable Nash Equilibrium strategy and supervised fine-tuning (SFT), we distill the GTO solver's output into LLMs, resulting in substantial improvements in model performance. Meanwhile, we introduce PokerBench - a benchmark for evaluating the poker-playing abilities of LLMs. PokerBench consists of a comprehensive compilation of 2,000 essential scenarios in poker. We validate PokerBench by demonstrating that higher test accuracy on PokerBench correlates well with higher expected value of actions taken, leading to a higher win rate in actual gameplay. PokerBench thus presents a unique benchmark for an efficient and reliable evaluation of the poker-playing ability of LLMs as well as a comprehensive benchmark to study the progress of LLMs in complex game-playing scenarios with incomplete information.}
 }
 
-@misc{lai2024evolvingaicollectivesenhance,
-    abbr={AI Collective},
-    title={Evolving AI Collectives to Enhance Human Diversity and Enable Self-Regulation}, 
-    author={Shiyang Lai and Yujin Potter and Junsol Kim and Richard Zhuang and Dawn Song and James Evans},
-    year={2024},
-    month={Feb},
-    eprint={2402.12590},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL},
-    url={https://arxiv.org/abs/2402.12590}, 
-    selected={true},
-    html={https://arxiv.org/html/2402.12590v2},
-    abstract={Large language model behavior is shaped by the language of those with whom they interact. This capacity and their increasing prevalence online portend that they will intentionally or unintentionally “program” one another and form emergent AI subjectivities, relationships, and collectives. Here, we call upon the research community to investigate these “societies” of interacting artificial intelligences to increase their rewards and reduce their risks for human society and the health of online environments. We use a small “community” of models and their evolving outputs to illustrate how such emergent, decentralized AI collectives can spontaneously expand the bounds of human diversity and reduce the risk of toxic, anti-social behavior online. Finally, we discuss opportunities for AI cross-moderation and address ethical issues and design challenges associated with creating and maintaining free-formed AI collectives.}
+@inproceedings{
+lai2024position,
+abbr={Multi-Agent},
+title={Evolving {AI} Collectives Enhance Human Diversity and Enable Self-Regulation},
+author={Shiyang Lai and Yujin Potter and Junsol Kim and Richard Zhuang and Dawn Song and James Evans},
+booktitle={Forty-first International Conference on Machine Learning},
+year={2024},
+url={https://arxiv.org/abs/2402.12590}, 
+selected={true},
+html={https://arxiv.org/html/2402.12590v2},
+abstract={Large language model behavior is shaped by the language of those with whom they interact. This capacity and their increasing prevalence online portend that they will intentionally or unintentionally “program” one another and form emergent AI subjectivities, relationships, and collectives. Here, we call upon the research community to investigate these “societies” of interacting artificial intelligences to increase their rewards and reduce their risks for human society and the health of online environments. We use a small “community” of models and their evolving outputs to illustrate how such emergent, decentralized AI collectives can spontaneously expand the bounds of human diversity and reduce the risk of toxic, anti-social behavior online. Finally, we discuss opportunities for AI cross-moderation and address ethical issues and design challenges associated with creating and maintaining free-formed AI collectives.}
 }
