@@ -3,22 +3,48 @@
 
 @misc{embedllm,
     abbr={EmbedLLM},
-    title={(Under Review in ICLR 2025) EmbedLLM: Learning Compact Representations of Large Language Models}, 
+    title={(Under Review at ICLR 2025) EmbedLLM: Learning Compact Representations of Large Language Models}, 
     author={Richard Zhuang and Tianhao Wu and Zhaojin Wen and Andrew Li and Kannan Ramchandran and Jiantao Jiao},
     year={2024},
     month={Oct},
-    selected={true},
+    selected={false},
     abstract={With hundreds of thousands of language models available on Huggingface today, efficiently evaluating and utilizing these models across various downstream tasks has become increasingly critical. Many existing methods repeatedly learn task-specific representations of Large Language Models (LLMs), which leads to inefficiencies in both time and computational resources. To address this, we propose EmbedLLM, a framework designed to learn compact vector representations of LLMs that facilitate downstream applications involving many models, such as model routing. We introduce an encoder-decoder approach for learning such embedding, along with a systematic framework to evaluate their effectiveness. Empirical results show that EmbedLLM outperforms prior methods in model routing. Additionally, we demonstrate that our method can forecast a model's performance on multiple benchmarks, without incurring additional inference cost. Extensive probing experiments validate that the learned embeddings capture key model characteristics, e.g. whether the model is specialized for coding tasks, even without being explicitly trained on them. We open source our dataset, code and embedder to facilitate further research and application.}
 }
 
 @misc{pokerllm,
     abbr={PokerLLM},
-    title={(Under Review in AAAI 2025) PokerBench: Training Large Language Models to become Professional Poker Players}, 
+    title={(Under Review at AAAI 2025) PokerBench: Training Large Language Models to become Professional Poker Players}, 
     author={Richard Zhuang and Akshat Gupta and Richard Yang and Aniket Rahane and Zhengyu Li and Gopala Anumanchipalli},
     year={2024},
     month={Aug},
-    selected={true},
+    selected={false},
     abstract={As Large Language Models (LLMs) excel in traditional NLP tasks, their application to complex, strategic games like poker poses a new challenge. Poker, an incomplete information game, demands a multitude of skills such as mathematics, reasoning, planning, and understanding of game theory. We evaluate prominent models such as GPT, Llama and Gemma series models, finding that all state-of-the-art LLMs underperform in playing optimal poker. To enhance LLM’s poker-playing capabilities, we formulated strategy learning in a teacher-student framework and performed knowledge distillation from Game Theory Optimal (GTO) strategy solvers. Through aggregating a novel training dataset comprising decisions that represent an unexploitable Nash Equilibrium strategy and supervised fine-tuning (SFT), we distill the GTO solver's output into LLMs, resulting in substantial improvements in model performance. Meanwhile, we introduce PokerBench - a benchmark for evaluating the poker-playing abilities of LLMs. PokerBench consists of a comprehensive compilation of 2,000 essential scenarios in poker. We validate PokerBench by demonstrating that higher test accuracy on PokerBench correlates well with higher expected value of actions taken, leading to a higher win rate in actual gameplay. PokerBench thus presents a unique benchmark for an efficient and reliable evaluation of the poker-playing ability of LLMs as well as a comprehensive benchmark to study the progress of LLMs in complex game-playing scenarios with incomplete information.}
+}
+
+@inproceedings{
+zhuang2025embedllm,
+abbr={EmbedLLM},
+title={Embed{LLM}: Learning Compact Representations of Large Language Models (ICLR 2025 Spotlight🌟)},
+author={Richard Zhuang and Tianhao Wu and Zhaojin Wen and Andrew Li and Jiantao Jiao and Kannan Ramchandran},
+booktitle={The Thirteenth International Conference on Learning Representations (ICLR)},
+year={2025},
+selected={true},
+url={https://openreview.net/forum?id=Fs9EabmQrJ},
+html={https://arxiv.org/html/2410.02223v2},
+abstract={With hundreds of thousands of language models available on Huggingface today, efficiently evaluating and utilizing these models across various downstream tasks has become increasingly critical. Many existing methods repeatedly learn task-specific representations of Large Language Models (LLMs), which leads to inefficiencies in both time and computational resources. To address this, we propose EmbedLLM, a framework designed to learn compact vector representations of LLMs that facilitate downstream applications involving many models, such as model routing. We introduce an encoder-decoder approach for learning such embedding, along with a systematic framework to evaluate their effectiveness. Empirical results show that EmbedLLM outperforms prior methods in model routing. Additionally, we demonstrate that our method can forecast a model's performance on multiple benchmarks, without incurring additional inference cost. Extensive probing experiments validate that the learned embeddings capture key model characteristics, e.g. whether the model is specialized for coding tasks, even without being explicitly trained on them. We open source our dataset, code and embedder to facilitate further research and application.}
+}
+
+@inproceedings{
+zhuang2024pokerbench,
+abbr={PokerBench},
+title={PokerBench: Training Large Language Models to become Professional Poker Players},
+author={Richard Zhuang and Akshat Gupta and Richard Yang and Aniket Rahane and Zhengyu Li and Gopala Anumanchipalli},
+booktitle={The 39th Annual AAAI Conference on Artificial Intelligence (AAAI)},
+year={2024},
+selected={true},
+url={https://arxiv.org/abs/2501.08328},
+html={https://arxiv.org/html/2501.08328v2},
+abstract={We introduce PokerBench - a benchmark for evaluating the poker-playing abilities of large language models (LLMs). As LLMs excel in traditional NLP tasks, their application to complex, strategic games like poker poses a new challenge. Poker, an incomplete information game, demands a multitude of skills such as mathematics, reasoning, planning, strategy, and a deep understanding of game theory and human psychology. This makes Poker the ideal next frontier for large language models. PokerBench consists of a comprehensive compilation of 11,000 most important scenarios, split between pre-flop and post-flop play, developed in collaboration with trained poker players. We evaluate prominent models including GPT-4, ChatGPT 3.5, and various Llama and Gemma series models, finding that all state-of-the-art LLMs underperform in playing optimal poker. However, after fine-tuning, these models show marked improvements. We validate PokerBench by having models with different scores compete with each other, demonstrating that higher scores on PokerBench lead to higher win rates in actual poker games. Through gameplay between our fine-tuned model and GPT-4, we also identify limitations of simple supervised fine-tuning for learning optimal playing strategy, suggesting the need for more advanced methodologies for effectively training language models to excel in games. PokerBench thus presents a unique benchmark for a quick and reliable evaluation of the poker-playing ability of LLMs as well as a comprehensive benchmark to study the progress of LLMs in complex game-playing scenarios.}
 }
 
 @inproceedings{
@@ -26,7 +52,7 @@ lai2024position,
 abbr={Multi-Agent},
 title={Evolving {AI} Collectives Enhance Human Diversity and Enable Self-Regulation},
 author={Shiyang Lai and Yujin Potter and Junsol Kim and Richard Zhuang and Dawn Song and James Evans},
-booktitle={Forty-first International Conference on Machine Learning},
+booktitle={Forty-first International Conference on Machine Learning (ICML)},
 year={2024},
 url={https://arxiv.org/abs/2402.12590}, 
 selected={true},

@@ -3,8 +3,10 @@ layout: about
 title: ME
 permalink: /
 subtitle: >
-  UC Berkeley CS + Applied Math, LLM Researcher, World-Class Poker/Basketball Player 
-  <span style="color: #d3d3d3;">in my sweet dreams</span>.
+  UC Berkeley CS + Applied Math, LLM Research, Interning at 
+  <a href='https://www.bespokelabs.ai/'>Bespoke Labs</a>!
+# World-Class Poker/Basketball Player 
+# <span style="color: #d3d3d3;">in my sweet dreams</span>.
 
 profile:
   align: right
