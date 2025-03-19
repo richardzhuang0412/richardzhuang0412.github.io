@@ -2,10 +2,11 @@
 layout: page
 permalink: /coursework/
 title: My Courses
-description: 
+description:
 nav: true
 nav_order: 6
 ---
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-R57GE0P1TR"></script>
 <script>

@@ -4,7 +4,7 @@
 
 title: Richard Zhuang # the website title (if blank, full name will be used instead)
 first_name: Richard
-middle_name: 
+middle_name:
 last_name: Zhuang
 email: richardzhuang0412@berkeley.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -115,7 +115,7 @@ google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-google_site_verification: WjbyJG9beLsfJsG33fkGl22F4XltCLWh3kqbyPVvYSU 
+google_site_verification: WjbyJG9beLsfJsG33fkGl22F4XltCLWh3kqbyPVvYSU
 # your google-site-verification ID (Google Search Console)
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 

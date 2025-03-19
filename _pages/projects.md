@@ -2,12 +2,13 @@
 layout: page
 title: My Projects
 permalink: /projects/
-description: 
+description:
 nav: true
 nav_order: 3
 display_categories: [Finished, Ongoing]
 horizontal: false
 ---
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-R57GE0P1TR"></script>
 <script>
@@ -19,6 +20,7 @@ horizontal: false
 </script>
 
 (Under Construction)
+
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}

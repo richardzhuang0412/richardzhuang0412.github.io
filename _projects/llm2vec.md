@@ -7,6 +7,7 @@ importance: 1
 category: Finished
 related_publications: false
 ---
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-R57GE0P1TR"></script>
 <script>
@@ -19,7 +20,7 @@ related_publications: false
 
 (Cover picture credit: [Medium](https://medium.com/@rebirth4vali/implementing-matrix-factorization-technique-for-recommender-systems-from-scratch-7828c9166d3c))
 
-*TL;DR: We trained a system that turns LLMs into embeddings and show that this embedding contains rich information to **simultaneously** aid downstream tasks like correctness forecasting, model routing, and benchmark accuracy predictions!*
+_TL;DR: We trained a system that turns LLMs into embeddings and show that this embedding contains rich information to **simultaneously** aid downstream tasks like correctness forecasting, model routing, and benchmark accuracy predictions!_
 
 (Full paper link will be available soon!)
 

@@ -7,6 +7,7 @@ importance: 2
 category: Ongoing
 giscus_comments: false
 ---
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-R57GE0P1TR"></script>
 <script>
@@ -19,7 +20,7 @@ giscus_comments: false
 
 (Cover picture credit: [PokerBotAI](https://pokerbotai.com/our-news/mtt-poker-bot-ai-the-next-gen-poker-bot-enters-the-fray/))
 
-*TL;DR: We tried to fine-tune an LLM using data from optimal poker strategy solver and found that with our current method it is unable to generalize to out-of-distribution scenarios :(*
+_TL;DR: We tried to fine-tune an LLM using data from optimal poker strategy solver and found that with our current method it is unable to generalize to out-of-distribution scenarios :(_
 
 The initial motivation of this project is to see language models can solve incomplete information games like poker through natural language. We formulate the problem in a distillation framework where we have sample strategies from a poker solver (which takes in a set of configuration of the game and outputs near optimal strategy for all nodes in the whole game tree) as the teacher and we let the LLM to learn this set of strategy through supervised fine-tuning, hoping that they learn a set of general principle that helps construct good strategies.
 
@@ -46,6 +47,6 @@ We then release our model into the wild by putting it into real gameplay with ot
 
 **What's Next?**
 
-Producing system that doesn't work is actually extremely valuable as it gives you an opportunity to step back and rethink aout your methodology, details in implementation, and even your motivation (won't go too much into this for now as I am STILL thinking lol). There are several directions that we can go, for example we can append external tools like hand equity calculators to the LLM (like how ChatGPT use programming languages to analyze results) or we can try starting with an easier goal of understanding/explaining poker concepts before going into gameplay. 
+Producing system that doesn't work is actually extremely valuable as it gives you an opportunity to step back and rethink aout your methodology, details in implementation, and even your motivation (won't go too much into this for now as I am STILL thinking lol). There are several directions that we can go, for example we can append external tools like hand equity calculators to the LLM (like how ChatGPT use programming languages to analyze results) or we can try starting with an easier goal of understanding/explaining poker concepts before going into gameplay.
 
 PS: Recently I went to Noam Brown‘s talk at BAIR and his presetation about the o1 model as well as the poker bots he created in the earlier days provides some valuable insights on shifting to **inference-time compute**. Let's see if I can come up with any new ideas that can hopefully get LLMs play good poker :)
