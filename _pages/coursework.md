@@ -3,7 +3,7 @@ layout: page
 permalink: /coursework/
 title: My Courses
 description:
-nav: true
+nav: false
 nav_order: 6
 ---
 

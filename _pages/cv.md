@@ -5,7 +5,7 @@ title: CV
 nav: true
 nav_order: 8
 cv_pdf: richard_zhuang_resume.pdf
-description: (Under Construction)
+description:
 # toc:
 #   sidebar: None
 ---

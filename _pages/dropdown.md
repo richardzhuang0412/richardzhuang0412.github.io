@@ -1,7 +1,7 @@
 ---
 layout: page
 title: My Life!
-nav: true
+nav: false
 nav_order: 7
 dropdown: true
 children:
