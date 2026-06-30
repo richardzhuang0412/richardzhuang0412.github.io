@@ -45,9 +45,10 @@
     <!-- Author -->
     <div class="author">
       {%- assign author_array_size = entry.author_array | size -%}
+      {%- assign this_max_authors = entry.author_limit | default: site.max_author_limit | plus: 0 -%}
       {%- assign author_array_limit = author_array_size -%}
-      {%- if site.max_author_limit and author_array_size > site.max_author_limit -%}
-        {%- assign author_array_limit = site.max_author_limit -%}
+      {%- if this_max_authors > 0 and author_array_size > this_max_authors -%}
+        {%- assign author_array_limit = this_max_authors -%}
       {%- endif -%}
       {%- for author in entry.author_array limit: author_array_limit -%}
         {%- assign author_is_self = false -%}
