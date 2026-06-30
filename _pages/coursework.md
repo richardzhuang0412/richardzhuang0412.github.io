@@ -5,6 +5,7 @@ title: My Courses
 description:
 nav: false
 nav_order: 6
+published: false
 ---
 
 <!-- Google tag (gtag.js) -->

@@ -8,4 +8,5 @@ cv_pdf: richard_zhuang_resume.pdf
 description:
 # toc:
 #   sidebar: None
+published: false
 ---
