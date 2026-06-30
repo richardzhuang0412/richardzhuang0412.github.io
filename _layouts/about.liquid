@@ -28,10 +28,28 @@ layout: default
           {% endif %}
           {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
       30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid path = profile_image_path class = profile_image_class sizes = sizes alt = page.profile.image
-            cache_bust = true
-          %}
+          {% if page.profile.image_hover %}
+            {% assign profile_image_hover_path = page.profile.image_hover | prepend: 'assets/img/' %}
+            <div class="profile-photo-swap">
+              <div class="profile-photo-default">
+                {%
+                  include figure.liquid path = profile_image_path class = profile_image_class sizes = sizes alt = page.profile.image
+                  cache_bust = true
+                %}
+              </div>
+              <div class="profile-photo-hover">
+                {%
+                  include figure.liquid path = profile_image_hover_path class = profile_image_class sizes = sizes alt = page.profile.image_hover
+                  cache_bust = true
+                %}
+              </div>
+            </div>
+          {% else %}
+            {%
+              include figure.liquid path = profile_image_path class = profile_image_class sizes = sizes alt = page.profile.image
+              cache_bust = true
+            %}
+          {% endif %}
         {% endif %}
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>

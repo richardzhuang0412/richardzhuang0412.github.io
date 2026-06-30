@@ -199,6 +199,55 @@ blockquote {
   margin-right: 1rem;
 }
 
+.profile-photo-swap {
+  position: relative;
+  display: block;
+
+  figure,
+  picture {
+    margin: 0;
+    display: block;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+  }
+
+  .profile-photo-default {
+    display: block;
+    transition: opacity 0.4s ease;
+  }
+
+  .profile-photo-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+
+    figure,
+    picture {
+      height: 100%;
+    }
+
+    img {
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &:hover .profile-photo-default {
+    opacity: 0;
+  }
+
+  &:hover .profile-photo-hover {
+    opacity: 1;
+  }
+}
+
 @media (min-width: 576px) {
   .profile {
     width: 30%;
