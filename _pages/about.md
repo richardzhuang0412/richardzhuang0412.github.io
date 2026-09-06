@@ -3,7 +3,8 @@ layout: about
 title: About
 permalink: /
 subtitle: >
-  Current: <a href='https://www.anthropic.com/' style="color: #d97757;">Anthropic Safeguards Research</a>🛡️, Prev: <a href='https://www.cs.stanford.edu/' style="color: #c0392b;">Stanford MSCS</a>🌲, <a href='https://www.berkeley.edu/' style="color: #2471a3;">UC Berkeley CS + Applied Math</a>🐻, Research Intern at <a href='https://www.bespokelabs.ai/' style="color: #e74c3c;">Bespoke Labs</a>
+  Current: <a href='https://www.anthropic.com/' style="color: #d97757;">Anthropic Safeguards Research</a>🛡️<br>
+  Prev: <a href='https://www.cs.stanford.edu/' style="color: #c0392b;">Stanford MSCS</a>🌲, <a href='https://www.berkeley.edu/' style="color: #2471a3;">UC Berkeley CS + Applied Math</a>🐻, Research Intern at <a href='https://www.bespokelabs.ai/' style="color: #e74c3c;">Bespoke Labs</a>
 # World-Class Poker/Basketball Player
 # <span style="color: #d3d3d3;">in my sweet dreams</span>.
 
