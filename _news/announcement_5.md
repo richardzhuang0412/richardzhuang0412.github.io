@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined [Anthropic](https://www.anthropic.com/) as a member of the **Safeguards Research Team**! 🎉
+Joined [Anthropic](https://www.anthropic.com/) as a member of the **Safeguards Research Team**!
