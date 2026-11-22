@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="560" viewBox="0 0 620 560">
+  <rect width="620" height="560" fill="#ffffff"/>
+  <path d="M214 34 L310 64 L406 34 L500 76 L560 360 L590 470 L520 482 L470 300 L462 520 L158 520 L150 300 L100 482 L30 470 L60 360 L120 76 Z" fill="#b08d5f" stroke="#8a6c45" stroke-width="3"/>
+  <path d="M214 34 L268 200 L310 120 L352 200 L406 34" fill="#9c7b50" stroke="#7c603c" stroke-width="3"/>
+  <path d="M310 120 L310 520" stroke="#6f5535" stroke-width="4"/>
+  <rect x="158" y="480" width="304" height="40" fill="#9c7b50"/>
+  <rect x="190" y="300" width="80" height="10" rx="3" fill="#8a6c45"/><rect x="350" y="300" width="80" height="10" rx="3" fill="#8a6c45"/>
+  <circle cx="324" cy="230" r="6" fill="#4a3a26"/><circle cx="324" cy="320" r="6" fill="#4a3a26"/><circle cx="324" cy="410" r="6" fill="#4a3a26"/>
+  <!-- open front: show what is underneath -->
+</svg>

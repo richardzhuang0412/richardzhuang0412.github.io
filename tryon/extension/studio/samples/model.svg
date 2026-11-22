@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1200" viewBox="0 0 600 1200">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eeeae4"/><stop offset="1" stop-color="#d9d3ca"/></linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9a886"/><stop offset=".5" stop-color="#ecc3a5"/><stop offset="1" stop-color="#d4a07d"/></linearGradient>
+  </defs>
+  <rect width="600" height="1200" fill="url(#bg)"/>
+  <ellipse cx="300" cy="1172" rx="150" ry="14" fill="#000" opacity=".08"/>
+  <!-- arms -->
+  <path d="M190 236 C160 250 150 300 146 360 L132 560 C130 600 128 630 138 650 L160 648 C162 620 160 590 164 560 L192 380 Z" fill="url(#skin)"/>
+  <path d="M410 236 C440 250 450 300 454 360 L468 560 C470 600 472 630 462 650 L440 648 C438 620 440 590 436 560 L408 380 Z" fill="url(#skin)"/>
+  <!-- legs -->
+  <path d="M206 600 L292 600 L288 760 L280 960 L276 1140 L238 1140 L232 960 L214 760 Z" fill="url(#skin)"/>
+  <path d="M308 600 L394 600 L386 760 L368 960 L362 1140 L324 1140 L320 960 L312 760 Z" fill="url(#skin)"/>
+  <!-- torso (fitted base layer) -->
+  <path d="M232 196 L368 196 C400 206 420 222 420 248 L404 400 C398 450 396 500 400 520 L408 606 L192 606 L200 520 C204 500 202 450 196 400 L180 248 C180 222 200 206 232 196 Z" fill="#5f6b73"/>
+  <rect x="192" y="580" width="216" height="60" rx="10" fill="#4a545b"/>
+  <!-- feet -->
+  <path d="M236 1136 L278 1136 L282 1164 L226 1166 Z" fill="#c99677"/>
+  <path d="M322 1136 L364 1136 L374 1166 L318 1164 Z" fill="#c99677"/>
+  <!-- neck + head -->
+  <rect x="278" y="160" width="44" height="46" rx="12" fill="#e2b493"/>
+  <ellipse cx="300" cy="112" rx="50" ry="62" fill="url(#skin)"/>
+  <path d="M248 104 C250 52 350 46 352 104 C340 80 300 70 262 86 Z" fill="#2d2420"/>
+</svg>

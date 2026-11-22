@@ -203,6 +203,7 @@ kramdown:
 include: ["_pages"]
 exclude:
   - bin
+  - tryon # standalone try-on prototype (served by its own server / loaded as a browser extension)
   - Gemfile
   - Gemfile.lock
   - vendor

@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "试衣间 · 拖图即试穿",
+  "short_name": "试衣间",
+  "version": "0.1.0",
+  "description": "购物时把衣服图片拖进来，直接穿在自己的照片上，并判断尺码合不合适。",
+  "permissions": ["storage", "unlimitedStorage", "contextMenus", "sidePanel", "activeTab"],
+  "host_permissions": ["<all_urls>"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_title": "打开试衣间" },
+  "side_panel": { "default_path": "studio/studio.html?panel=1" },
+  "icons": { "16": "icons/16.png", "48": "icons/48.png", "128": "icons/128.png" },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["studio/extract.js", "content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [{ "resources": ["studio/*"], "matches": ["<all_urls>"] }]
+}
